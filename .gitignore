@@ -1,0 +1,8 @@
+*.suo
+*.dbmdl
+
+[Oo]bj/
+[Bb]in/
+
+#Exclude web.config
+[Ww]eb.config
