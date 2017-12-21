@@ -16,7 +16,7 @@ namespace MVCMusicStore
         protected void Application_Start()
         {
             Database.SetInitializer(
-                new DropCreateDatabaseAlways<MusicStoreDB>());
+                new MusicStoreDBInitializer());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
